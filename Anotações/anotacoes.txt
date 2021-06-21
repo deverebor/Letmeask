@@ -1,0 +1,13 @@
+Aula 01:
+
+SPA > Modelo de página atual
+
+Utilizar o import { função } from './pasta/arquivo' é melhor do que exportar como default, porque se houver a alteração da variável ele não ira receber mais a função, no caso ajuda na semântica do código. O nome disso se chama "named export" você precisa dar um nome ao que vai ser exportado para respectivamente importar. 
+
+Todas as propriedades que são enviadas para o componente são enviadas como argumentos da função.
+
+Sempre que se for incluir um código JavaScript dentro do JSX que é o HTML inserido no JavaScript sempre vai ser com {}. 
+
+Sempre criamos um estado como constante, mesmo que o valor seja alterado.
+
+No ReactJS existe um conceito chamado de imutabilidade que é a partir do momento que uma variável foi criada dentro de um estado de um componente ela não sofre alterações, sempre se cria uma nova informação, baseada na anterior.
