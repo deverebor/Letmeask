@@ -17,7 +17,7 @@ Sempre criamos um estado como constante, mesmo que o valor seja alterado.
 
 No ReactJS existe um conceito chamado de imutabilidade que é a partir do momento que uma variável foi criada dentro de um estado de um componente ela não sofre alterações, sempre se cria uma nova informação, baseada na anterior.
 
-----------
+-------------------------------------------------------------------------------
 AULA 02:
 
 Todo arquivo de um componente deve se começar com a letra maiúscula EX: Home.tsx 
@@ -67,3 +67,6 @@ Toda vez que se declara um event listen é recomendado que se salve o event list
 
 Sempre que for enviado um componente do ReactJS como children o tipo necessita vim de dentro da propiedade do ReactJS EX: 
 import { createContext, *ReactNode* } from "react"
+
+-------------------------------------------------------------------------------
+AULA 03:
