@@ -1,4 +1,9 @@
-Aula 01:
+AULA 01:
+
+Conteúdos de suporte:
+Flowchart sobre o formato SPA: https://whimsical.com/nlw-together-Xr7p33QfRwZsR1t9f2WGta
+Figma do Letmeask: https://www.figma.com/file/u0BQK8rCf2KgzcukdRRCWh/Letmeask/duplicate
+Configuração do ambiente: https://www.notion.so/NLW-Together-Conte-dos-complementares-ae22125e899549efb2d4e360b5ee5ca3
 
 SPA > Modelo de página atual
 
@@ -11,3 +16,54 @@ Sempre que se for incluir um código JavaScript dentro do JSX que é o HTML inse
 Sempre criamos um estado como constante, mesmo que o valor seja alterado.
 
 No ReactJS existe um conceito chamado de imutabilidade que é a partir do momento que uma variável foi criada dentro de um estado de um componente ela não sofre alterações, sempre se cria uma nova informação, baseada na anterior.
+
+----------
+AULA 02:
+
+Todo arquivo de um componente deve se começar com a letra maiúscula EX: Home.tsx 
+Não se pode utilizar com letra minúscula porque se não o navegador confunde com uma tag html tradicional.
+
+imagem.svg o svg são vetores que nunca perdem resolução.
+
+Quando se referencia uma imagem no reactjs não coloca simplesmente o src da imagem ou qualquer arquivo sempre se utiliza importação, ou seja um *import arquivo from 'local'*
+
+&amp; -> símbolo de & 
+
+O react tem suporte para o SASS porém utilizando o pacote do facbook, o suporte é exclusivo (até o momento) do 5.0
+yarn add node-sass@^5.0.0
+
+Para o design da página ser mais bonita visualmente é necessário utilizar múltiplos de 8 na criação do design. EX:
+8px, 16px, 24px, 32px e etc
+
+No ReactJS a declaração de uma classe é className e não class como é utilizado no html padrão.
+
+Quando avistamos algo que se repete muito em uma aplicação como por exemplo a estilização de um botão é o primeiro indicio da necessidade de criação de um componente, para ter o encapsulamento disso e se reaproveitar em vários lugares.
+
+**MELHORAR A DOCUMENTAÇÃO DO CÓDIGO AO FINAL DA NLW**
+
+A parte de navegação que ocorre dentro de uma página com ReactJS é feito com o react-router-dom, ele permite que ocorra a transição entre as páginas internas do projeto assim trazendo a tona o SPA.
+O pacote react router não possui suporte para typescript, então a comunidade utiliza um pacote de terceiros para criar esse suporte se utiliza o yarn add @types/react-router-dom
+
+O exact é utilizado dentro da <Route /> para dizer que precisar ser exatamente aquele caminho para funcionar o redirecionamento para a página.
+
+Toda função que começa com "use" se chama de hook no ReactJS e todo hook tem que estar dentro do componente porque ele faz uso de informações que fazem parte do contexto do componente.
+
+Contextos no reactjs nada mais é do que uma forma de compartilhar informações entre dois ou mais componentes e essa informação pode ser qualquer coisa como um texto, array e etc.
+
+Todo estado é criado dessa forma: const [value, setValue] = objeto()
+{{}} => representa um codigo de javascript com um objeto dentro, a primeira {} é o código e a {{}} é o objeto.
+
+Toda função async (assíncrona) devolve uma promessa no JavaScript
+
+[NewRoom.tsx - Linha 29] {user?.name} a interrogação é utilizada porque o usuário pode ser undefined quando não está logado.
+
+useEffect => hook para disparo de efeitos colaterais ou funcionalidades, vai ser utilizado para disparar uma função sempre que algo acontecer como: mudança de informação, sempre que o componente for mostrado em tela e etc. Ele recebe 2 parâmetros:
+1- *Função* que será executada;
+2- *Quando* será executada (sempre será um array);
+
+Dentro desse vetor será escolhido qual informação será monitorada. Se for necessário disparar essa função uma única vez deixa-se o array vazio.
+
+Toda vez que se declara um event listen é recomendado que se salve o event listen em uma variável para que caso seja necessário pare-se de ouvi-lá . É recomendado que sempre se faça o retorno que remova o cadastro de todos os event listen que foram cadastrados, SOMENTE SE estiver cadastrado em algum event listen. Uma boa pratica é: toda vez que se declarar um event listen deve ser feito a remoção do cadastro sempre no final do método. 
+
+Sempre que for enviado um componente do ReactJS como children o tipo necessita vim de dentro da propiedade do ReactJS EX: 
+import { createContext, *ReactNode* } from "react"
