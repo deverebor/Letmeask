@@ -65,9 +65,9 @@ Toda função async (assíncrona) devolve uma promessa no JavaScript.
 Ex de sua criação: useEffect(() => {}, [])
 Dentro desse vetor será escolhido qual informação será monitorada. Se for necessário disparar essa função uma única vez deixa-se o array vazio se não passa-se a propriedade que será monitorada..
 
-[AuthContext.tsx => Linha 45] Toda vez que se declara um event listen é recomendado que salve ele em uma variável para que caso seja necessário não o "ouça" mais. Também recomenda-se o retorno removendo o cadastro de todos os event listen já armazenados, SOMENTE SE estiver cadastrado em algum event listen. 
+[AuthContext.tsx => Linha 45] Toda vez que se declara um event listener é recomendado que salve ele em uma variável para que caso seja necessário não o "ouça" mais. Também recomenda-se o retorno removendo o cadastro de todos os event listener já armazenados, SOMENTE SE estiver cadastrado em algum event listener. 
 Uma boa pratica é: 
-*Toda vez que se declarar um event listen deve ser feito a remoção do cadastro sempre no final do método.* 
+*Toda vez que se declarar um event listener deve ser feito a remoção do cadastro sempre no final do método.* 
 
 [AuthContext.tsx => Linha 02] Sempre que for enviado um componente do ReactJS como children o tipo necessita vim de dentro da propriedade *ReactNode* do ReactJS EX: 
 import { createContext, *ReactNode* } from "react"
@@ -75,3 +75,7 @@ Isso permite o compartilhamento dessa children pelo projeto.
 
 -------------------------------------------------------------------------------
 AULA 03:
+
+Quando temos um await dentro de uma função o código abaixo dele só ira ser executado caso ele receba oque pede. Caso receba um erro, não continuara executando o código.
+
+Toda função que é passada nativamente do HTML como o onSubmit={} do formulário ela recebe como parametro o próprio evento para conseguir manipular de alguma forma. No caso do onSubmit ele é um evento de formulario e eu consigo obter informações dele por conta disso.
