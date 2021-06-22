@@ -1,3 +1,4 @@
+//Criação da autenticação do usuário para login no site.
 import { createContext, ReactNode, useEffect, useState } from "react"
 import { auth, firebase } from "../services/firebase"
 
