@@ -15,7 +15,7 @@ Sempre que se for incluir um código JavaScript dentro do JSX que é o HTML inse
 
 Sempre criamos um estado como constante, mesmo que o valor seja alterado.
 
-No ReactJS existe um conceito chamado de imutabilidade que é a partir do momento que uma variável foi criada dentro de um estado de um componente ela não sofre alterações, sempre se cria uma nova informação, baseada na anterior.
+No ReactJS existe um conceito chamado de imutabilidade, a partir do momento que uma variável foi criada dentro de um estado de um componente ela não sofre alterações, sempre se cria uma nova informação, baseada na anterior.
 
 -------------------------------------------------------------------------------
 AULA 02:
