@@ -27,7 +27,7 @@ export function AuthContextProvider(props: AuthContextProviderProps){
   useEffect(() => {
     //Event listen. Se for detectado que um usuário já foi logado na aplicação vai ser retornado o usuário.
     const unsubscribe = auth.onAuthStateChanged(user => {
-      if(user) {
+      if (user) {
           const { displayName, photoURL, uid } = user
   
           if (!displayName || !photoURL) {
@@ -47,13 +47,14 @@ export function AuthContextProvider(props: AuthContextProviderProps){
     }
   }, [] )
 
+  //Função para login com a conta do google na aplicação
   async function signInWithGoogle() {
     //Autenticação do usuário
     const provider = new firebase.auth.GoogleAuthProvider()
 
     const result = await auth.signInWithPopup(provider)
 
-      if(result.user) {
+      if (result.user) {
         const { displayName, photoURL, uid } = result.user
 
         if (!displayName || !photoURL) {
