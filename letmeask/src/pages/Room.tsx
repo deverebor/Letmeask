@@ -48,6 +48,7 @@ export function Room(){
 
     const roomId = params.id
 
+    //Recurso para observação das perguntas em tempo real
     useEffect(() => {
         const roomRef = database.ref(`rooms/${roomId}`)
 
@@ -70,6 +71,7 @@ export function Room(){
         })
     }, [roomId])
 
+    //Criação de novas perguntas
     async function handleSendQuestion(event: FormEvent) {
         event.preventDefault()
 
