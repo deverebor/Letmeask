@@ -1,6 +1,7 @@
 //Importação dos componentes
 import { useEffect } from 'react'
 import { FormEvent, useState } from 'react'
+import toast, { Toaster } from 'react-hot-toast'
 import { useParams } from 'react-router-dom'
 
 import logoImg from '../assets/images/logo.svg'
@@ -80,21 +81,23 @@ export function Room(){
         }
 
         if (!user){
-            throw new Error('You must be logged in.')
+            toast.error("Usuário não conectado!")
+            
         }
 
         const question = {
             content: newQuestion,
             author: {
-                name: user.name,
-                avatar: user.avatar,
+                name: user?.name,
+                avatar: user?.avatar,
             },
             isHighlighted: false,
             isAnswered: false,
         }
 
         await database.ref(`rooms/${roomId}/questions`).push(question)
-
+        toast.success('Mensagem enviada com sucesso!')
+        
         setNewQuestion('')
     }
 
@@ -108,6 +111,10 @@ export function Room(){
             </header>
 
             <main>
+                <Toaster
+                position="top-center"
+                reverseOrder={true}
+                />
                 <div className="room-title">
                     <h1>Sala {title}</h1>
                     { questions.length > 0 && <span>{questions.length} pergunta(s)</span> }

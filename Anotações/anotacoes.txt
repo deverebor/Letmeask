@@ -63,7 +63,7 @@ Toda função async (assíncrona) devolve uma promessa no JavaScript.
 1- *Função* que será executada(arrow function);
 2- *Quando* será executada (sempre será um array);
 Ex de sua criação: useEffect(() => {}, [])
-Dentro desse vetor será escolhido qual informação será monitorada. Se for necessário disparar essa função uma única vez deixa-se o array vazio se não passa-se a propriedade que será monitorada..
+Dentro desse vetor será escolhido qual informação será monitorada. Se for necessário disparar essa função uma única vez deixa-se o array vazio se não passa-se a propriedade que será monitorada.
 
 [AuthContext.tsx => Linha 45] Toda vez que se declara um event listener é recomendado que salve ele em uma variável para que caso seja necessário não o "ouça" mais. Também recomenda-se o retorno removendo o cadastro de todos os event listener já armazenados, SOMENTE SE estiver cadastrado em algum event listener. 
 Uma boa pratica é: 
@@ -133,7 +133,7 @@ quando se utiliza um type em conjunto com uma função é chamado de generics ex
 const params = useParams*<RoomParams>*()
 O RoomParams é passado como um parâmetro passado para a tipagem.
 
-**[Room.tsx => Linha 81]LER SOBRE O REAC-HOT-TOAST E IMPLEMENTAR NO PROJETO PARA CASO TENHA ALGUM ERRO USAR AS NOTIFICAÇÕES PERSONALIZADAS**
+[Room.tsx => Linha 84 - 99] Configuração das mensagens de erro utilizando o react-hot-toast.
 
 [Room.tsx => Linha 96] O setNewQuestion('') serve para retornar o valor da caixa de texto para vazio após o envio da pergunta.
 
