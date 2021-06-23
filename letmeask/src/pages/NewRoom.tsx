@@ -18,7 +18,7 @@ export function NewRoom(){
     const history = useHistory()
     const [newRoom, setNewRoom] = useState('')
 
-    //Criação da sala do admin
+    //Função de criação da sala do admin
     async function handleCreateRoom(event: FormEvent){
         event.preventDefault()
 

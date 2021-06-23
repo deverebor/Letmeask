@@ -16,9 +16,6 @@ import '../styles/auth.scss'
 import { useState } from 'react'
 
 
-
-
-
 //Configurações da home
 export function Home(){
     const history = useHistory() //Precisa estar dentro do componente
