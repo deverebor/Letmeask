@@ -110,7 +110,7 @@ export function Room(){
                 </div>
             </header>
 
-            <main>
+            <main >
                 <Toaster
                 position="top-center"
                 reverseOrder={true}

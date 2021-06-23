@@ -3,6 +3,9 @@
     display: flex;
     align-items: stretch;
     height: 100vh;
+    &.dark {
+        background: #333;
+    }
     //Estilização do aside (parte lateral) do site
     aside {
         flex: 7;
