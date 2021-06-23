@@ -154,7 +154,19 @@ Para fazer tipagem de objetos no TypeScript se utiliza *Record<>*
 
 [Room.tsx => Linha 56] Se eu quero informar que eu sei o tipo de alguma informação no TypeScript pode se usar um nome_variável "as" tipo ou pode-se atribuir um novo valor a variável e falar que ela tem um tipo "variável: tipo"
 
-** [Room.tsx => Linha 54]RESOLVER PROBLEMA DO roomRef.on() repetir sempre a função de parsed ter que ouvir apenas inserções, modificações, ou remoções PESQUISAR SOBRE CHILD ADD FIREBASE **
+** [Room.tsx => Linha 54]RESOLVER PROBLEMA DO roomRef.on() repetir sempre a função de parsed ter que ouvir apenas inserções, modificações, ou remoções PESQUISAR SOBRE CHILD ADD FIREBASE 
+
+[Room.tsx => Linha 123] *Criar uma nova variável* que só executa quando receber um valor que foi digitado onChange no <form> **
+
+LER SOBRE CMAP TOOLS
+IDEIA DE COMO RESOLVER O PROBLEMA:
+id="testeEscuta" => no (<form> Linha 123)
+
+async function test(){
+        const testState = document.getElementById('testeEscuta')
+
+        
+    }
 
 -------------------------------------------------------------------------------
 AULA 04:
