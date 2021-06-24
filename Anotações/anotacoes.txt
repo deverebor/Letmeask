@@ -159,14 +159,21 @@ Para fazer tipagem de objetos no TypeScript se utiliza *Record<>*
 [Room.tsx => Linha 123] *Criar uma nova variável* que só executa quando receber um valor que foi digitado onChange no <form> **
 
 LER SOBRE CMAP TOOLS
+
 IDEIA DE COMO RESOLVER O PROBLEMA:
 id="testeEscuta" => no (<form> Linha 123)
 
 async function test(){
         const testState = document.getElementById('testeEscuta')
-
+        
         
     }
+
+    Retorno da requisição AJAX;
+
+    Tentar tratar como boolean;
+
+    Como setar o tema dark | light : https://www.smashingmagazine.com/2020/04/dark-mode-react-apps-styled-components/
 
 -------------------------------------------------------------------------------
 AULA 04:
