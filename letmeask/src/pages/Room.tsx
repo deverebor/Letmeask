@@ -49,7 +49,7 @@ export function Room() {
     };
 
     await database.ref(`rooms/${roomId}/questions`).push(question);
-    toast.success("Mensagem enviada com sucesso!");
+    toast.success("Pergunta feita com sucesso!");
 
     setNewQuestion("");
   }
@@ -64,10 +64,16 @@ export function Room() {
       await database
         .ref(`rooms/${roomId}/questions/${questionId}/likes/${likeId}`)
         .remove();
+        toast('Seu like foi removido desta pergunta.', {
+          icon: '👎',
+        });
     } else {
       //Adição dos likes
       await database.ref(`rooms/${roomId}/questions/${questionId}/likes`).push({
         authorId: user?.id,
+      });
+      toast('Você gostou dessa pergunta!', {
+        icon: '👍',
       });
     }
   }

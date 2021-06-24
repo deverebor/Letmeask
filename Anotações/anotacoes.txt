@@ -194,4 +194,8 @@ Quando se utiliza uma variavel externa ou seja quando não é definida dentro de
 
 [Room.tsx => Linha 62] && [Home.tsx => Linha 41, 46] **TENTAR ADICIONAR A MENSAGEM POPUP DO TOAST**
 
-Tentar implementar o react-modal visualmente na remoção das perguntas.
+Tentar implementar o react-modal visualmente na remoção das perguntas. 
+Ler: https://medium.com/reactbrasil/modal-funcional-com-react-hooks-ddaf6224efa1
+     https://github.com/reactjs/react-modal
+     https://codepen.io/claydiffrient/pen/KNjVBx
+     https://www.linkedin.com/pulse/react-usando-hooks-context-api-para-criar-superiores-pires/?originalSubdomain=pt

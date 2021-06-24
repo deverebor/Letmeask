@@ -11,6 +11,7 @@ import { useRoom } from "../hooks/useRoom";
 import { database } from "../services/firebase";
 
 import "../styles/room.scss";
+import toast, { Toaster } from "react-hot-toast";
 
 type RoomParams = {
   id: string;
@@ -28,11 +29,15 @@ export function AdminRoom() {
   async function handleEndRoom() {
     await database.ref(`rooms/${roomId}`).update({
       endedAt: new Date(),
+      
     });
-
+    toast("Vamos perguntar mais uma vez ?", {
+      icon: "🤔",
+    });
     history.push("/"); //Enviando o usuário de volta para a home da aplicação
   }
 
+  //Função para deletar uma pergunta
   async function handleDeleteQuestion(questionId: string) {
     if (window.confirm("Tem certeza que você deseja excluir esta pergunta?")) {
       await database.ref(`rooms/${roomId}/questions/${questionId}`).remove();
@@ -41,6 +46,7 @@ export function AdminRoom() {
 
   return (
     <div id="page-room">
+      <Toaster position="top-center" reverseOrder={false} />
       <header>
         <div className="content">
           <img src={logoImg} alt="Letmeask" />

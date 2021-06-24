@@ -14,6 +14,7 @@ import { useAuth } from "../hooks/useAuth";
 import "../styles/auth.scss";
 
 import { useState } from "react";
+import toast, { Toaster } from "react-hot-toast";
 
 //Configurações da home
 export function Home() {
@@ -39,13 +40,13 @@ export function Home() {
 
     const roomRef = await database.ref(`rooms/${roomCode}`).get();
     if (!roomRef.exists()) {
-      alert("Room does not exists.");
+      toast.error("O código de sala inserido não existe.");
       return;
     }
 
     if (roomRef.val().endedAt) {
-      alert("Room already closed.")
-      return
+      toast.error("A sala já está encerrada.");
+      return;
     }
 
     history.push(`/rooms/${roomCode}`);
@@ -53,6 +54,7 @@ export function Home() {
 
   return (
     <div id="page-auth">
+      <Toaster position="top-center" reverseOrder={false} />
       <aside>
         <img
           src={illustrationImg}
