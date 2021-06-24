@@ -154,26 +154,44 @@ Para fazer tipagem de objetos no TypeScript se utiliza *Record<>*
 
 [Room.tsx => Linha 56] Se eu quero informar que eu sei o tipo de alguma informação no TypeScript pode se usar um nome_variável "as" tipo ou pode-se atribuir um novo valor a variável e falar que ela tem um tipo "variável: tipo"
 
-** [Room.tsx => Linha 54]RESOLVER PROBLEMA DO roomRef.on() repetir sempre a função de parsed ter que ouvir apenas inserções, modificações, ou remoções PESQUISAR SOBRE CHILD ADD FIREBASE 
-
-[Room.tsx => Linha 123] *Criar uma nova variável* que só executa quando receber um valor que foi digitado onChange no <form> **
-
-LER SOBRE CMAP TOOLS
-
-IDEIA DE COMO RESOLVER O PROBLEMA:
-id="testeEscuta" => no (<form> Linha 123)
-
-async function test(){
-        const testState = document.getElementById('testeEscuta')
-        
-        
-    }
-
-    Retorno da requisição AJAX;
-
-    Tentar tratar como boolean;
+[useRoom.tsx => Linha 72] PROBLEMA RESOLVIDO DO roomRef.on() repetir sempre a função de parsed ter que ouvir apenas inserções, modificações, ou remoções PESQUISAR SOBRE CHILD ADD FIREBASE 
 
     Como setar o tema dark | light : https://www.smashingmagazine.com/2020/04/dark-mode-react-apps-styled-components/
 
 -------------------------------------------------------------------------------
 AULA 04:
+
+[Question.tsx => Linha 10] Como o props é um objeto eu posso desestruturar ele para passar o conteúdo que eu quero. Como pode se analisar na código.
+
+Uma outra forma de se organizar o projeto é fazendo uma pasta para cada página e seu conteudo com o jsx ou tsx + style na pasta. Assim como foi feito com o Question
+
+Quando se utiliza o "&" no sass ele se referencia ao próprio elemento. 
+[style.scss => Linha 8] Quando uma question vem seguida de outra question
+
+[Room.tsx => Linha 143] No reactjs existe apenas uma forma de se percorrer um array e retornar cada item do array como componente. o "map()" diferente do for ich permite que retorne algo dele.
+[Room.tsx => Linha 151] Toda vez que se faz uma listagem no reactjs e percorre o seu array e ele retorna uma lista é obrigatório se passar para o primeiro elemento que vem do "map()" da listagem uma "key={}" uma propriedade que o próprio react cria par se utilizar. No caso dessa aplicação a chave será o "id" já que nenhuma quest terá um id igual. Passa-se essa key para o react identifica a diferença dos elementos.
+**ESTUDAR ALGORITMO DE RECONCILIAÇÃO - documentação do react**
+
+Existe uma tipagem do reactjs que se utiliza quando vai se definir a própriedade children, ela se chama ReactNode. O ReactNode é qualquer conteúdo JSX pode ser um texto, div e etc.
+
+Quando o ícone svg é um ícone de linha ou seja, somente uma linha fica-se armazenado no "stroke" a sua coloração, quando é um ícone que é totalmente preenchido fica no fill. No React é necessario deixar os atributos do svg com camelcase ou seja: strokeWidth e não stroke-width por exemplo.
+
+Quando se chama uma função no onClick que ela recebe um parâmetro NÃO pode se fazer ex:
+
+onClick={handleLikeQuestion(question.id)}
+
+O onClick espera receber uma função como valor se eu passo dessa forma não estou passando uma função e sim a execução de uma. Então quando for preciso passar uma função que necessita de um parâmetro no onClick SEMPRE colocará dessa forma: 
+
+onClick={() => handleLikeQuestion()}
+
+Eu crio uma arrow function anónima que chama a função passando o parâmetro.
+
+o .some() é um metodo do JavaScript que percorre uma array até encontrar uma condição que satisfaça oque foi pedido, após encontrar ele vai retornar true ou false diferente do .find() que vai retornar o objeto que foi encontrado.
+
+Quando se utiliza uma variavel externa ou seja quando não é definida dentro de um useEffect() por exemplo ela é algo que vem de fora. Sempre que uma variavel é algo que vem de fora se entende que essa variavel é uma dependecia o useEffect(), ou seja, o useEffect() depende do valor dessa variavel para execultar da melhor forma. Então se o useEffect() depende de uma variavel para se execultar da melhor maneira deve-se passar dentro do array de dependecia o valor da variavel externa.
+
+[useRoom.ts => Linha 60] Se o usuario não tiver dado like na questão ainda não retornará nadae se não retornar nada não terá como acessar a própriedade [0] que é onde está o ID do like. Então a "?" antes do [0] verifica se algo foi retornado e se isso acontecer vai ser nulo.
+
+[Room.tsx => Linha 62] && [Home.tsx => Linha 41, 46] **TENTAR ADICIONAR A MENSAGEM POPUP DO TOAST**
+
+Tentar implementar o react-modal visualmente na remoção das perguntas.
