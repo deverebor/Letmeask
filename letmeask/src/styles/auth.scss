@@ -3,9 +3,11 @@
     display: flex;
     align-items: stretch;
     height: 100vh;
+
     &.dark {
         background: #333;
     }
+
     //Estilização do aside (parte lateral) do site
     aside {
         flex: 7;
@@ -15,14 +17,17 @@
         flex-direction: column;
         justify-content: center;
         padding: 10px 80px;
+
         img {
             max-width: 320px;
         }
+
         strong {
             font: 700 36px 'Poppins', sans-serif;
             line-height: 42px;
             margin-top: 16px;
         }
+
         p {
             font-size: 24px;
             line-height: 32px;
@@ -30,6 +35,7 @@
             color: #f8f8f8;
         }
     }
+
     //Estilização do conteúdo principal
     main {
         flex: 8;
@@ -38,6 +44,7 @@
         align-items: center;
         justify-content: center;
     }
+
     .main-content {
         display: flex;
         flex-direction: column;
@@ -45,15 +52,18 @@
         max-width: 320px;
         align-items: stretch;
         text-align: center;
+
         >img {
             // O sinal de maior sinaliza que ira pegar a imagem que se encontra dentro do main content.
             align-self: center;
         }
+
         h2 {
             font-size: 24px;
             margin: 64px 0 24px;
             font-family: 'Poppins', sans-serif;
         }
+
         form {
             input {
                 height: 50px;
@@ -62,23 +72,28 @@
                 background: #FFF;
                 border: 1px solid #a8a8b3;
             }
+
             button {
                 margin-top: 16px;
             }
+
             button,
             input {
                 width: 100%;
             }
         }
+
         p {
             font-size: 14px;
             color: #737380;
             margin-top: 16px;
+
             a {
                 color: #e559f9;
             }
         }
     }
+
     //Estilização do botão de criação da sala
     .create-room {
         margin-top: 64px;
@@ -93,13 +108,16 @@
         cursor: pointer;
         border: 0;
         transition: filter 0.2s;
+
         img {
             margin-right: 8px;
         }
+
         &:hover {
             filter: brightness(0.9);
         }
     }
+
     //Estilização do separador entre a criação da sala e o codigo de um existente.
     .separator {
         font-size: 14px;
@@ -107,6 +125,7 @@
         margin: 32px 0;
         display: flex;
         align-items: center;
+
         &::before {
             content: '';
             flex: 1;
@@ -114,6 +133,7 @@
             background: #a8a8b3;
             margin-right: 16px;
         }
+
         &::after {
             content: '';
             flex: 1;

@@ -7,16 +7,16 @@
     border: 1px solid #835afd;
     cursor: pointer;
     display: flex;
+
     div {
         background: #835afd;
         padding: 0 12px;
         display: flex;
         justify-content: center;
         align-items: center;
-        >img {
-            width: 40px;
-        }
+        height: 100%;
     }
+
     span {
         display: block;
         align-self: center;
