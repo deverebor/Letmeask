@@ -42,8 +42,6 @@ Create React App:
 </p>
 
 <h4 align="center">Features em desenvolvimento</h4>
-
-<p align="center">
    | Implementação:                                       | Estado:                   |
    | :-------------:                                      |:-------------:            |
    | Novo design                                          | ⌛ em desenvolvimento...  |
@@ -52,7 +50,6 @@ Create React App:
    | Gerar aplicação PWA                                  | ⌛ em desenvolvimento...  |
    | Utilizar um novo design para o modal                 | ⌛ em testes...           |
    | Tema dark e light (logo interativa com essa mudança) | ⌛ em testes...           |
-</p>
 
 ### Foi uma longa jornada...
 <p>
