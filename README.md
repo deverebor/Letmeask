@@ -4,7 +4,7 @@ Feito durante a (NLW) Next Level Week de ReactJS com mentoria do Diego Fernandes
 Todo o design do projeto foi entregue pela @rocketseat para todos que participaram codar e desenvolver suas ideias!
 </p>
 
-### Qual o objetivo do projeto ?
+<h3 align="center"> Qual o objetivo do projeto ? </h3>
 <p align="center">
 Facilitar a comunicação entre o criador de conteúdo e seu publico. 
 Na aplicação, o usuário cria uma sala e nela pessoas podem fazer perguntas para serem respondidas em live, aulas, palestras e afins.
@@ -14,17 +14,19 @@ Na aplicação, o usuário cria uma sala e nela pessoas podem fazer perguntas pa
 <p>
 Totalmente construido em: React e TypeScript.
 
-<li>Bibliotecas utilizadas:
-    <ul>create-react-app</ul>
-    <ul>react-router-dom</ul>
-    <ul>react-hot-toast</ul>
-    <ul>react-modal</ul>
-</li>
+Bibliotecas utilizadas:
+<ul>
+    <li>create-react-app</li>
+    <li>react-router-dom</li>
+    <li>react-hot-toast</li>
+    <li>react-modal</li>
+</ul>
 </p>
 
 #### Features em desenvolvimento
 
-| Implementação                                        | Estado de implementação:  |
+| Implementação                                        | Estado:                   |
+| :-------------:                                      |:-------------:            |
 | Novo design                                          | ⌛ em desenvolvimento...  |
 | Responsividade                                       | ⌛ em desenvolvimento...  |
 | Função de Logout                                     | ⌛ em desenvolvimento...  |
