@@ -28,12 +28,15 @@ Create React App:
  Utilizei para construir o escolpo do projeto, veio com todas as dependências necessárias pra construção do app.
 
  React Router Dom:
+<br>
  Utilizado para a manipulação do DOM da minha aplicação, assim fazendo com que funcionasse o conceito de SPA.
 
  React Hot Toast:
+<br>
  Ficou responsável pela funcionalidade dos pop-ups da aplicação como a confirmação do envio da pergunta, like e afins.
 
  React Modal:
+<br>
  Essa funcionalidade ficou com o cargo de deixar a parte da remoção de uma pergunta pelo admin da sala com uma interação mais avançada.
 
 </p>
