@@ -11,7 +11,7 @@
     //Estilização do aside (parte lateral) do site
     aside {
         flex: 7;
-        background: #835afd;
+        background: #4CBEE2;
         color: #fff;
         display: flex;
         flex-direction: column;
@@ -94,7 +94,7 @@
         }
     }
 
-    //Estilização do botão de criação da sala
+    //Estilização do botão de criação da sala (login com o google)
     .create-room {
         margin-top: 64px;
         height: 50px;
@@ -106,7 +106,7 @@
         justify-content: center;
         align-items: center;
         cursor: pointer;
-        border: 0;
+        border: 1px solid #FF4163;
         transition: filter 0.2s;
 
         img {
