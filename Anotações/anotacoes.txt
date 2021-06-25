@@ -199,3 +199,40 @@ Ler: https://medium.com/reactbrasil/modal-funcional-com-react-hooks-ddaf6224efa1
      https://github.com/reactjs/react-modal
      https://codepen.io/claydiffrient/pen/KNjVBx
      https://www.linkedin.com/pulse/react-usando-hooks-context-api-para-criar-superiores-pires/?originalSubdomain=pt
+
+-------------------------------------------------------------------------------
+AULA 05:
+
+[index.jsx(Questions) => Linha 25] Quando se tem muitas uniões de várias classes uma biblioteca interessante de se utilizar é a classnames, esse pacote já foi feito com TypeScript então não é necessário adicionar o types do @type script:
+
+yarn add classnames
+
+Ao inves de se passar simplesmente o nome da classe pode-se passar na sua função um objeto. A chave do objeto é a classe e o valor do objeto é um bool dizendo se a classe deve ser aplicada ou não 
+
+Não só um return do react é possível voltar em array Ex: return [  ] ao invés de um return ().
+É melhor utilizar esse tipo de return quando tiver dois componentes sendo retornados. Além disso também existe o <> </> são tags vazias chamadas de fragment ou fragmento que fazem uma divisão do meu código sem ter que criar divs a mais que poderiam prejudicar meu css.
+Ex:
+
+return [
+  *<>*
+  <Question>
+
+  </Question>
+
+  <Modal>
+
+  </Modal
+  *</>*
+
+]
+
+Para funcionar eu utilizo a "," que faz com que os elementos ganhem seus espaços na array.
+
+-------------------------------------------------------------------------------
+Futuras atualizações:
+
+Novo design;
+Login dos admins;
+Responsatividade;
+Aderir o modal[Room.tsx => Linha 62];
+Ler sobre o react-hook-form para validação de formulário;
