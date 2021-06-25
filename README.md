@@ -25,7 +25,7 @@ Bibliotecas utilizadas:
 
 <h4 align="center">Features em desenvolvimento</h4>
 
-| Implementação                                        | Estado:                   |
+| Implementação:                                        | Estado:                   |
 | :-------------:                                      |:-------------:            |
 | Novo design                                          | ⌛ em desenvolvimento...  |
 | Responsividade                                       | ⌛ em desenvolvimento...  |
@@ -34,13 +34,18 @@ Bibliotecas utilizadas:
 | Utilizar um novo design para o modal                 | ⌛ em testes...           |
 | Tema dark e light (logo interativa com essa mudança) | ⌛ em testes...           |
 
-### Agradecimentos e Considerações finais
+### Foi uma longa jornada...
 <p>
-Primeiramente a rocketseat por disponibilizar um conteúdo tão inspirador e imersivo como a NLW além de ser totalmente <strong>gratuito</strong>, além dessa empresa de ensino também ao professor Diego por compartilhar o seu conhecimento de forma sucinta e objetiva.
+Primeiramente gostaria de agradecer a rocketseat por disponibilizar um conteúdo tão inspirador e imersivo como a NLW e ser totalmente <strong>gratuita</strong>, além dessa empresa de ensino também o professor Diego por compartilhar o seu conhecimento de forma sucinta e objetiva.
 
 Também gostaria de agradecer a toda comunidade [HUB Tech](https://ahub.tech/discord) a qual tem me ajudado de forma indescritível a evoluir como um programador.
 
 Essa NLW foi de longe um dos melhores eventos da rocket que participei desde a 3° Omnistack. O conhecimento que aprendi não se resumem as anotações e nem as <strong>mais de 25hrs codando</strong> e aprendendo constantemente. A cada aula era um novo conhecimento e a empolgação renovada, eu faria tudo de novamente. Minha sede de conhecimento nunca está saciada e se o objetivo da Rocket é me levar para o próximo nível eu não quero isso, eu vou criar o meu próximo nível.
+
+Todo o meu diário de bordo durante a NLW está disponivél na pasta Anotações onde coloquei tudo que aprendi e também ideias para se implementar no app.
+
+
+Obrigado a todos,
 
 #Bora Codar!
 </p>
