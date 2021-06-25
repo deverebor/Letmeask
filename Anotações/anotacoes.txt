@@ -100,17 +100,21 @@ Lógica utilizada na configuração das autorizações do banco de dados do fire
   "rules": {
     "rooms": {
       ".read": false,
-      ".write": "auth != null",
+      ".write": false,
       "$roomId": {
-        ".read": true,
-        ".write": "auth != null && (!data.exists() || data.child('authorId').val() == auth.id)",
+        ".read": "!root.child('/rooms/' + $roomId + '/endedAt').exists() || data.child('authorId').val() == auth.uid ",
+        ".write": "auth != null && (!data.exists() || data.child('authorId').val() == auth.uid)",
         "questions": {
-          ".read": true,
-          ".write": "auth != null && (!data.exists() || data.parent().child('authorId').val() == auth.id)",
-          "likes": {
-            ".read": true,
-            ".write": "auth != null && (!data.exists() || data.child('authorId').val() == auth.id)",  
-          }
+          ".read": "!root.child('/rooms/' + $roomId + '/endedAt').exists()",
+          ".write": false,
+            "$questionId":{
+              ".read": true,
+                  ".write": "auth != null && !root.child('/rooms/' + $roomId + '/endedAt').exists() && (!data.exists() || data.child('author/id').val() == auth.uid)",
+              "likes": {
+                ".read": true,
+                ".write": "auth != null",  
+              }
+            }
         }
       }
     }
