@@ -245,7 +245,9 @@ Configurar o Firebase Hosting:
 Futuras atualizações:
 
 Novo design;
-Login dos admins;
-Responsatividade;
-Aderir o modal[Room.tsx => Linha 62];
+Responsatividade => canal rocketseet youtube.;
+Quando alterar o tema, vai ter que alerar o conteúdo do <img de branco para preto>;
+Aderir o modal para os admins [Room.tsx => Linha 62];
+Gerar aplicativo com o PWA;
+A alterar a formatação do código da sala;
 Ler sobre o react-hook-form para validação de formulário;
