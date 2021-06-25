@@ -12,7 +12,7 @@ Na aplicação, o usuário cria uma sala e nela pessoas podem fazer perguntas pa
 
 ### Por debaixo dos panos:
 <p>
-Totalmente construido em: <strong>ReactJS</strong> e <strong>TypeScript</strong> com o <strong>Firebase em seu banco de dados</strong> e todo conceito de uma SPA.
+Totalmente construido em: <strong>ReactJS</strong> e <strong>TypeScript</strong> com o <strong>Firebase</strong> em seu banco de dados <strong>SASS</strong> para estilizar e todo conceito de uma SPA.
 
 Bibliotecas utilizadas:
 <ul>
