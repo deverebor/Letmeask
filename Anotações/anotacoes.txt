@@ -246,6 +246,7 @@ Futuras atualizações:
 
 Novo design;
 Responsatividade => canal rocketseet youtube.;
+Botão de logout;
 Quando alterar o tema, vai ter que alerar o conteúdo do <img de branco para preto>;
 Aderir o modal para os admins [Room.tsx => Linha 62];
 Gerar aplicativo com o PWA;
