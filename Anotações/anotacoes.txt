@@ -228,6 +228,19 @@ return [
 
 Para funcionar eu utilizo a "," que faz com que os elementos ganhem seus espaços na array.
 
+Passo a passo de como fazer o host da aplicação:
+
+Como fazer deploy usando a biblioteca create-react-app(firebase):
+https://create-react-app.dev/docs/deployment#firebase
+
+Configurar o Firebase Hosting:
+
+1- yarn global add firebase-tools
+2- firebase login
+3- firebase init (usar a documentação do create-react-app)
+4- yarn build (criar a build da aplicação)
+5- firebase deploy
+
 -------------------------------------------------------------------------------
 Futuras atualizações:
 
