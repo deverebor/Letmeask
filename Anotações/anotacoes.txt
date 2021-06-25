@@ -214,7 +214,7 @@ yarn add classnames
 Ao inves de se passar simplesmente o nome da classe pode-se passar na sua função um objeto. A chave do objeto é a classe e o valor do objeto é um bool dizendo se a classe deve ser aplicada ou não 
 
 Não só um return do react é possível voltar em array Ex: return [  ] ao invés de um return ().
-É melhor utilizar esse tipo de return quando tiver dois componentes sendo retornados. Além disso também existe o <> </> são tags vazias chamadas de fragment ou fragmento que fazem uma divisão do meu código sem ter que criar divs a mais que poderiam prejudicar meu css.
+É melhor utilizar esse tipo de return quando tiver dois componentes sendo retornados. Além disso também existe o <> </> são tags vazias chamadas de fragment ou fragmento que fazem uma divisão do meu código sem ter que criar divs a mais que poderiam prejudicar meu css. Isso acontece quando o retorno tem 2 componentes um ao lado do outro.
 Ex:
 
 return [
@@ -251,8 +251,17 @@ Futuras atualizações:
 Novo design;
 Responsatividade => canal rocketseet youtube.;
 Botão de logout;
-Quando alterar o tema, vai ter que alerar o conteúdo do <img de branco para preto>;
+Quando alterar o tema, vai ter que alerar o conteúdo do <img de branco para preto> 
+https://www.youtube.com/watch?v=ngVU74daJ8Y
 Aderir o modal para os admins [Room.tsx => Linha 62];
 Gerar aplicativo com o PWA;
 A alterar a formatação do código da sala;
 Ler sobre o react-hook-form para validação de formulário;
+
+para instalar o modal é necessario:
+
+yarn add react-modal 
+
+se estiver usando typescript precisa de mais um comando:
+
+yarn add @types/react-modal -D
