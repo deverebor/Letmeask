@@ -42,6 +42,7 @@ Create React App:
 </p>
 
 <h4 align="center">Features em desenvolvimento</h4>
+
    | Implementação:                                       | Estado:                   |
    | :-------------:                                      |:-------------:            |
    | Novo design                                          | ⌛ em desenvolvimento...  |
