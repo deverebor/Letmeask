@@ -42,7 +42,7 @@ Também gostaria de agradecer a toda comunidade [HUB Tech](https://ahub.tech/dis
 
 Essa NLW foi de longe um dos melhores eventos da rocket que participei desde a 3° Omnistack. O conhecimento que aprendi não se resumem as anotações e nem as <strong>mais de 25hrs codando</strong> e aprendendo constantemente. A cada aula era um novo conhecimento e a empolgação renovada, eu faria tudo de novamente. Minha sede de conhecimento nunca está saciada e se o objetivo da Rocket é me levar para o próximo nível eu não quero isso, eu vou criar o meu próximo nível.
 
-Todo o meu diário de bordo durante a NLW está disponivél na pasta Anotações onde coloquei tudo que aprendi e também ideias para se implementar no app.
+Todo o meu diário de bordo durante a NLW está disponível na pasta Anotações onde coloquei tudo que aprendi e também ideias para se implementar futuramente no app.
 
 
 Obrigado a todos,
