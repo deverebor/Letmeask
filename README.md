@@ -10,9 +10,9 @@ Facilitar a comunicação entre o criador de conteúdo e seu publico.
 Na aplicação, o usuário cria uma sala e nela pessoas podem fazer perguntas para serem respondidas em live, aulas, palestras e afins.
 </p>
 
-### Tecnologias Utilizadas:
+### Por debaixo dos panos:
 <p>
-Totalmente construido em: React e TypeScript.
+Totalmente construido em: <strong>ReactJS</strong> e <strong>TypeScript</strong> com o <strong>Firebase em seu banco de dados</strong> e todo conceito de uma SPA.
 
 Bibliotecas utilizadas:
 <ul>
@@ -21,6 +21,21 @@ Bibliotecas utilizadas:
     <li>react-hot-toast</li>
     <li>react-modal</li>
 </ul>
+</p>
+<p> 
+Create React App:
+<br>
+ Utilizei para construir o escolpo do projeto, veio com todas as dependências necessárias pra construção do app.
+
+ React Router Dom:
+ Utilizado para a manipulação do DOM da minha aplicação, assim fazendo com que funcionasse o conceito de SPA.
+
+ React Hot Toast:
+ Ficou responsável pela funcionalidade dos pop-ups da aplicação como a confirmação do envio da pergunta, like e afins.
+
+ React Modal:
+ Essa funcionalidade ficou com o cargo de deixar a parte da remoção de uma pergunta pelo admin da sala com uma interação mais avançada.
+
 </p>
 
 <h4 align="center">Features em desenvolvimento</h4>
