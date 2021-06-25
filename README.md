@@ -45,14 +45,14 @@ Essa funcionalidade ficou com o cargo de deixar a parte da remoção de uma perg
 
 <h4 align="center">Features em desenvolvimento</h4>
 
-|                    Implementação:                    |               Estado:               |
-| :--------------------------------------------------: | :---------------------------------: |
-|                     Novo design                      | ⌛ atualmente em desenvolvimento... |
-|                    Responsividade                    | ⌛ atualmente em desenvolvimento... |
-|                   Função de Logout                   | ⌛ atualmente em desenvolvimento... |
-|                 Gerar aplicação PWA                  | ⌛ atualmente em desenvolvimento... |
-|         Utilizar um novo design para o modal         |     ⌛ em período de testes...      |
-| Tema dark e light (logo interativa com essa mudança) |     ⌛ em período de testes...      |
+|            Implementação:            |               Estado:               |
+| :----------------------------------: | :---------------------------------: |
+|             Novo design              |            ✔️ Concluído             |
+|            Responsividade            | ⌛ atualmente em desenvolvimento... |
+|           Função de Logout           | ⌛ atualmente em desenvolvimento... |
+|         Gerar aplicação PWA          | ⌛ atualmente em desenvolvimento... |
+| Utilizar um novo design para o modal |     ⌛ em período de testes...      |
+|          Tema dark e light           |     ⌛ em período de testes...      |
 
 ### Foi uma longa jornada...
 
