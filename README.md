@@ -43,14 +43,14 @@ Create React App:
 
 <h4 align="center">Features em desenvolvimento</h4>
 
-| Implementação:                                        | Estado:                   |
-| :-------------:                                      |:-------------:            |
-| Novo design                                          | ⌛ em desenvolvimento...  |
-| Responsividade                                       | ⌛ em desenvolvimento...  |
-| Função de Logout                                     | ⌛ em desenvolvimento...  |
-| Gerar aplicação PWA                                  | ⌛ em desenvolvimento...  |
-| Utilizar um novo design para o modal                 | ⌛ em testes...           |
-| Tema dark e light (logo interativa com essa mudança) | ⌛ em testes...           |
+            | Implementação:                                       | Estado:                   |
+            | :-------------:                                      |:-------------:            |
+            | Novo design                                          | ⌛ em desenvolvimento...  |
+            | Responsividade                                       | ⌛ em desenvolvimento...  |
+            | Função de Logout                                     | ⌛ em desenvolvimento...  |
+            | Gerar aplicação PWA                                  | ⌛ em desenvolvimento...  |
+            | Utilizar um novo design para o modal                 | ⌛ em testes...           |
+            | Tema dark e light (logo interativa com essa mudança) | ⌛ em testes...           |
 
 ### Foi uma longa jornada...
 <p>
