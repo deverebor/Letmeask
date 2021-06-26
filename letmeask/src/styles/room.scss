@@ -15,12 +15,13 @@
                 max-height: 45px;
             }
 
-            > div {
+            >div {
                 display: flex;
                 gap: 16px; // ADiciona um espaçamento entre os elementos do meu flex
+
                 button {
                     height: 40px;
-                     
+
                 }
             }
         }
@@ -107,6 +108,16 @@
 
         .question-list {
             margin-top: 32px;
+
+        }
+
+        .empy-question {
+            width: 250px;
+            height: 250px;
+            margin-left: 250px;
+            margin-bottom: 250px;
+            display: flex;
+            justify-content: center;
             
         }
     }
