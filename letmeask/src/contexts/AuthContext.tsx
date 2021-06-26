@@ -73,8 +73,6 @@ export function AuthContextProvider(props: AuthContextProviderProps) {
       await auth.signOut();
       
       setUser(undefined);
-
-      //history.pushState()
     }
 
     return (
