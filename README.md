@@ -53,6 +53,7 @@ Essa funcionalidade ficou com o cargo de deixar a parte da remoção de uma perg
 |         Gerar aplicação PWA          | ⌛ atualmente em desenvolvimento... |
 | Utilizar um novo design para o modal | ⌛ atualmente em desenvolvimento... |
 |          Tema dark e light           |     ⌛ em período de testes...      |
+|  Imagem de background nas questions  |            ✔️ Concluído             |
 
 ### Foi uma longa jornada...
 
