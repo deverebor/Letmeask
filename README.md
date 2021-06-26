@@ -49,9 +49,9 @@ Essa funcionalidade ficou com o cargo de deixar a parte da remoção de uma perg
 | :----------------------------------: | :---------------------------------: |
 |             Novo design              |            ✔️ Concluído             |
 |            Responsividade            | ⌛ atualmente em desenvolvimento... |
-|           Função de Logout           | ⌛ atualmente em desenvolvimento... |
+|           Função de Logout           |            ✔️ Concluído             |
 |         Gerar aplicação PWA          | ⌛ atualmente em desenvolvimento... |
-| Utilizar um novo design para o modal |     ⌛ em período de testes...      |
+| Utilizar um novo design para o modal | ⌛ atualmente em desenvolvimento... |
 |          Tema dark e light           |     ⌛ em período de testes...      |
 
 ### Foi uma longa jornada...
