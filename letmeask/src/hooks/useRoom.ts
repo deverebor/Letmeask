@@ -64,7 +64,7 @@ export function useRoom(roomId: string) {
         }
       );
 
-      const questionSorted = parsedQuestions.sort((a, b) => a.likeCount - b.likeCount)
+      const questionSorted = parsedQuestions.sort((b, a) => a.likeCount - b.likeCount)
 
       setTitle(databaseRoom.title);
       setQuestions(questionSorted);

@@ -1,7 +1,20 @@
+<header>
 <h1 align="center">LetmeAsk</h1>
+<p align="center">
+<img src="/letmeask/src/assets/images/logo.svg">
+</p>
+</header>
+
+  <p align="center">
+  <img src="/letmeask/src/assets/git-images/home-app.png" align="center">
+  </p>
+  
+  ###### Design remodelado por mim.
+  <br>
+
  <p align="center">
 Feito durante a (NLW) Next Level Week de ReactJS com mentoria do Diego Fernandes <strong>@diego3g</strong>.
-Todo o design do projeto foi entregue pela @rocketseat para todos que participaram codar e desenvolver suas ideias!
+Todo o design do projeto foi entregue pela @rocketseat para todos que participaram codar e desenvolver suas ideias em cima do modelo!
 </p>
 
 <h3> Qual o objetivo do projeto ? </h3>
@@ -13,7 +26,7 @@ Na aplicação, o usuário cria uma sala e nela pessoas podem fazer perguntas pa
 ### Por debaixo dos panos:
 
 <p>
-Totalmente construido em: <strong>ReactJS</strong> e <strong>TypeScript</strong> com o <strong>Firebase</strong> em seu banco de dados e o <strong>SASS</strong> para estilizar toda a aplicação com conceito de uma SPA aplicado.
+Totalmente construido em: <strong>ReactJS</strong> e <strong>TypeScript</strong> com o <strong>Firebase</strong> em seu banco de dados e o <strong>SASS</strong> para estilizar toda a aplicação com conceito de uma <strong>SPA</strong> aplicado.
 
 Bibliotecas utilizadas:
 
@@ -24,35 +37,37 @@ Bibliotecas utilizadas:
     <li>react-modal</li>
 </ul>
 </p>
+
 <p> 
 Create React App:
-<br>
+
  Utilizei para construir o escolpo do projeto, veio com todas as dependências necessárias pra construção do app.
 
 React Router Dom:
-<br>
+
 Utilizado para a manipulação do DOM da minha aplicação, assim fazendo com que funcionasse o conceito de SPA.
 
 React Hot Toast:
-<br>
+
 Ficou responsável pela funcionalidade dos pop-ups da aplicação como a confirmação do envio da pergunta, like e afins.
 
 React Modal:
-<br>
+
 Essa funcionalidade ficou com o cargo de deixar a parte da remoção de uma pergunta pelo admin da sala com uma interação mais avançada.
 
 </p>
 
 <h4 align="center">Features em desenvolvimento</h4>
 
-|                    Implementação:                    |               Estado:               |
-| :--------------------------------------------------: | :---------------------------------: |
-|                     Novo design                      | ⌛ atualmente em desenvolvimento... |
-|                    Responsividade                    | ⌛ atualmente em desenvolvimento... |
-|                   Função de Logout                   | ⌛ atualmente em desenvolvimento... |
-|                 Gerar aplicação PWA                  | ⌛ atualmente em desenvolvimento... |
-|         Utilizar um novo design para o modal         |     ⌛ em período de testes...      |
-| Tema dark e light (logo interativa com essa mudança) |     ⌛ em período de testes...      |
+|            Implementação:            |               Estado:               |
+| :----------------------------------: | :---------------------------------: |
+|             Novo design              |            ✔️ Concluído             |
+|            Responsividade            | ✔️ Concluído  |
+|           Função de Logout           |            ✔️ Concluído             |
+|         Gerar aplicação PWA          | ⌛ atualmente em desenvolvimento... |
+| Utilizar um novo design para o modal | ⌛ atualmente em desenvolvimento... |
+|          Tema dark e light           |     ✔️ Concluído       |
+|  Imagem de background nas questions  |            ✔️ Concluído             |
 
 ### Foi uma longa jornada...
 

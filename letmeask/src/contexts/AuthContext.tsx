@@ -30,7 +30,7 @@ export function AuthContextProvider(props: AuthContextProviderProps) {
           const { displayName, photoURL, uid } = user;
   
           if(!displayName || !photoURL) {
-            toast.error('Informações faltando em sua Conta Google!');
+            toast.error('Faltam informações na sua conta Google.');
             return;
           }
   
@@ -56,7 +56,7 @@ export function AuthContextProvider(props: AuthContextProviderProps) {
         const { displayName, photoURL, uid } = result.user;
   
         if(!displayName || !photoURL) {
-          toast.error('Informações faltando em sua Conta Google!');
+          toast.error('Faltam informações na sua conta Google.');
           return;
         }
   
@@ -73,8 +73,6 @@ export function AuthContextProvider(props: AuthContextProviderProps) {
       await auth.signOut();
       
       setUser(undefined);
-
-      //history.pushState()
     }
 
     return (
