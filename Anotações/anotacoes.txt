@@ -249,9 +249,10 @@ Configurar o Firebase Hosting:
 Futuras atualizações:
 
 Novo design;
-Responsatividade => canal rocketseet youtube.;
+Responsatividade:
+https://www.youtube.com/watch?v=H91DhKPjhPk
 Botão de logout;
-Quando alterar o tema, vai ter que alerar o conteúdo do <img de branco para preto> 
+Quando alterar o tema, vai ter que alerar o conteúdo do <img de branco para preto>: 
 https://www.youtube.com/watch?v=ngVU74daJ8Y
 Aderir o modal para os admins [Room.tsx => Linha 62];
 Gerar aplicativo com o PWA;

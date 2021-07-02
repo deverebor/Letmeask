@@ -5,6 +5,7 @@
         border-bottom: 1px solid #e2e2e2;
 
         .content {
+            width: 100%;
             max-width: 1120px;
             margin: 0 auto;
             display: flex;
@@ -16,6 +17,7 @@
             }
 
             >div {
+
                 display: flex;
                 gap: 16px; // ADiciona um espaçamento entre os elementos do meu flex
 
@@ -28,6 +30,7 @@
     }
 
     main {
+        width: 100%;
         max-width: 800px;
         margin: 0 auto;
 
