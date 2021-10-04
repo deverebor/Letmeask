@@ -1,5 +1,4 @@
 <header>
-<h1 align="center">LetmeAsk</h1>
 <p align="center">
 <img src="/letmeask/src/assets/images/logo.svg">
 </p>
